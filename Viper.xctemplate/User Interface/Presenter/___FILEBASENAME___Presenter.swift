@@ -15,9 +15,9 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___Int
 	// MARK: Instances variables
     weak var view: ___FILEBASENAMEASIDENTIFIER___ViewInterface?
     let current___FILEBASENAMEASIDENTIFIER___InteractorDatabase = ___FILEBASENAMEASIDENTIFIER___InteractorDatabase()
-    var database: ___FILEBASENAMEASIDENTIFIER___DatabaseInterface!
+    var database: ___FILEBASENAMEASIDENTIFIER___DatabaseInterface?
     let current___FILEBASENAMEASIDENTIFIER___InteractorApi = ___FILEBASENAMEASIDENTIFIER___InteractorApi()
-    var api: ___FILEBASENAMEASIDENTIFIER___ApiInterface!
+    var api: ___FILEBASENAMEASIDENTIFIER___ApiInterface?
 
     deinit {
         print("::: deinit ___FILEBASENAMEASIDENTIFIER___Presenter")

@@ -11,7 +11,7 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___InteractorApi: ___FILEBASENAMEASIDENTIFIER___ApiInterface {
-	weak var presenter: ___FILEBASENAMEASIDENTIFIER___Interface!
+	weak var presenter: ___FILEBASENAMEASIDENTIFIER___Interface?
 
 	deinit {
         print("::: deinit ___FILEBASENAMEASIDENTIFIER___InteractorApi")

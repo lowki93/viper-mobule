@@ -11,5 +11,5 @@
 import Foundation
 
 protocol ___FILEBASENAMEASIDENTIFIER___ApiInterface: class {
-	weak var presenter: ___FILEBASENAMEASIDENTIFIER___Interface! { get set }
+	weak var presenter: ___FILEBASENAMEASIDENTIFIER___Interface? { get set }
 }

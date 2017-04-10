@@ -11,7 +11,7 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___InteractorDatabase: ___FILEBASENAMEASIDENTIFIER___DatabaseInterface {
-	weak var presenter: ___FILEBASENAMEASIDENTIFIER___Interface!
+	weak var presenter: ___FILEBASENAMEASIDENTIFIER___Interface?
 
 	deinit {
         print("::: deinit ___FILEBASENAMEASIDENTIFIER___InteractorDatabase")
